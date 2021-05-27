@@ -3,7 +3,7 @@
 <html>
 
 <head>
-    <title>Nombre</title>
+    <title>DHCP</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="../assets/css/main.css" />
@@ -43,10 +43,10 @@
 								<img src="images/pic07.jpg" alt="" />
 							</span>
                 <header class="major">
-                    <h1>Landing</h1>
+                    <h1>DHCP</h1>
                 </header>
                 <div class="content">
-                    <p>Lorem ipsum dolor sit amet nullam consequat<br /> sed veroeros. tempus adipiscing nulla.</p>
+                    <p>Instalacion y configuracion del servidor DHCP</p>
                 </div>
             </div>
         </section>
@@ -60,65 +60,191 @@
                     <header class="major">
                         <h2>Descripcion</h2>
                     </header>
-                    <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt.
-                        Vivamus et sagittis libero. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.</p>
+                    <p>DHCP significa protocolo de configuración de host dinámico y es un protocolo de red utilizado en redes IP donde un servidor DHCP asigna automáticamente una dirección IP y otra información a cada host en la red para que puedan comunicarse
+                        de manera eficiente con otros puntos finales</p>
                 </div>
             </section>
 
             <!-- Two -->
             <section id="two" class="spotlights">
                 <section>
-                    <a href="generic.html" class="image">
-                        <img src="images/pic08.jpg" alt="" data-position="center center" />
+                    <a href="images/DHCP/2021-05-25_17h56_32.png" class="image">
+                        <img src="images/DHCP/2021-05-25_17h56_32.png" alt="" data-position="center center" />
                     </a>
                     <div class="content">
                         <div class="inner">
                             <header class="major">
-                                <h3>Orci maecenas</h3>
+                                <h3>PASO 1</h3>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu
-                                lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+                            <p>Primero se instala el dhcp con el comando apt-get install isc-dhcp-server</p>
                             <ul class="actions">
-                                <li><a href="generic.html" class="button">Ver imagen</a></li>
+                                <li><a href="images/DHCP/2021-05-25_17h56_32.png" class="button">Ver imagen</a></li>
                             </ul>
                         </div>
                     </div>
                 </section>
                 <section>
-                    <a href="generic.html" class="image">
-                        <img src="images/pic09.jpg" alt="" data-position="top center" />
+                    <a href="images/DHCP/2021-05-25_23h33_53.png" class="image">
+                        <img src="images/DHCP/2021-05-25_23h33_53.png" alt="" data-position="top center" />
                     </a>
                     <div class="content">
                         <div class="inner">
                             <header class="major">
-                                <h3>Rhoncus magna</h3>
+                                <h3>PASO 2</h3>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu
-                                lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+                            <p>Ir a adaptador de red y cambiar a adaptador puente Family controller y le damos a permitir todo.</p>
                             <ul class="actions">
-                                <li><a href="generic.html" class="button">Ver imagen</a></li>
+                                <li><a href="images/DHCP/2021-05-25_23h33_53.png" class="button">Ver imagen</a></li>
                             </ul>
                         </div>
                     </div>
                 </section>
                 <section>
-                    <a href="generic.html" class="image">
-                        <img src="images/pic10.jpg" alt="" data-position="25% 25%" />
+                    <a href="images/DHCP/2021-05-25_23h34_45.png" class="image">
+                        <img src="images/DHCP/2021-05-25_23h34_45.png" alt="" data-position="25% 25%" />
                     </a>
                     <div class="content">
                         <div class="inner">
                             <header class="major">
-                                <h3>Sed nunc ligula</h3>
+                                <h3>PASO 3</h3>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu
-                                lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+                            <p>Nos vamos a la opcion de configurar conexiones de red y en la opcion cableada la cambiamos a enp0s8(08:00:27:C5:25:AD) </p>
                             <ul class="actions">
-                                <li><a href="generic.html" class="button">Ver imagen</a></li>
+                                <li><a href="images/DHCP/2021-05-25_23h34_45.pngl" class="button">Ver imagen</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <a href="images/DHCP/2021-05-25_23h34_50.png" class="image">
+                        <img src="images/DHCP/2021-05-25_23h34_50.png" alt="" data-position="center center" />
+                    </a>
+                    <div class="content">
+                        <div class="inner">
+                            <header class="major">
+                                <h3>PASO 4</h3>
+                            </header>
+                            <p>Nos vamos a la opción de configurar conexiones de red, luego a IPv4 y hacemos las modificaciones pertinentes.</p>
+                            <ul class="actions">
+                                <li><a href="images/DHCP/2021-05-25_23h34_50.png" class="button">Ver imagen</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <a href="images/DHCP/2021-05-25_23h35_49.png" class="image">
+                        <img src="images/DHCP/2021-05-25_23h35_49.png" alt="" data-position="top center" />
+                    </a>
+                    <div class="content">
+                        <div class="inner">
+                            <header class="major">
+                                <h3>PASO 5</h3>
+                            </header>
+                            <p>Ahora se activará el servicio dhcp- por lo que primero pondremos el comando ls –l /etc/dhcp.</p>
+                            <ul class="actions">
+                                <li><a href="images/DHCP/2021-05-25_23h35_49.png" class="button">Ver imagen</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <a href="images/DHCP/2021-05-25_23h37_01.png" class="image">
+                        <img src="images/DHCP/2021-05-25_23h37_01.png" alt="" data-position="center center" />
+                    </a>
+                    <div class="content">
+                        <div class="inner">
+                            <header class="major">
+                                <h3>PASO 6</h3>
+                            </header>
+                            <p>Luego nos muestra una lista de configuraciones, por lo que primero configuraremos el dhcpd.conf y para eso primero hay que activar las configuraciones con el comando ifup enp0s8 </p>
+                            <ul class="actions">
+                                <li><a href="images/DHCP/2021-05-25_23h37_01.png" class="button">Ver imagen</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <a href="images/DHCP/2021-05-25_23h37_17.png" class="image">
+                        <img src="images/DHCP/2021-05-25_23h37_17.png" alt="" data-position="top center" />
+                    </a>
+                    <div class="content">
+                        <div class="inner">
+                            <header class="major">
+                                <h3>PASO 7</h3>
+                            </header>
+                            <p>Luego editaremos el archivo dhcp.conf con el comando nano /etc/dhcp/dhcp.conf</p>
+                            <ul class="actions">
+                                <li><a href="images/DHCP/2021-05-25_23h37_17.png" class="button">Ver imagen</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <a href="images/DHCP/2021-05-25_23h37_50.png" class="image">
+                        <img src="images/DHCP/2021-05-25_23h37_50.png" alt="" data-position="center center" />
+                    </a>
+                    <div class="content">
+                        <div class="inner">
+                            <header class="major">
+                                <h3>PASO 8</h3>
+                            </header>
+                            <p>Ahora editaremos el archivo dhcp-servercon el comando nano /etc/default/isc-dhcp-server.</p>
+                            <ul class="actions">
+                                <li><a href="images/DHCP/2021-05-25_23h37_50.png" class="button">Ver imagen</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <a href="images/DHCP/2021-05-25_23h38_11.png" class="image">
+                        <img src="images/DHCP/2021-05-25_23h38_11.png" alt="" data-position="top center" />
+                    </a>
+                    <div class="content">
+                        <div class="inner">
+                            <header class="major">
+                                <h3>PASO 9</h3>
+                            </header>
+                            <p>Luego se edita el archivo interfaces con el comando nano /etc/network/interfaces p</p>
+                            <ul class="actions">
+                                <li><a href="images/DHCP/2021-05-25_23h38_11.png" class="button">Ver imagen</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <a href="images/DHCP/2021-05-25_23h38_41.png" class="image">
+                        <img src="images/DHCP/2021-05-25_23h38_41.png" alt="" data-position="center center" />
+                    </a>
+                    <div class="content">
+                        <div class="inner">
+                            <header class="major">
+                                <h3>PASO 10</h3>
+                            </header>
+                            <p>Ahora se reinicia el servicio dhcp con el comando systemctl restart isc-dhcp-server y ahora podemos ver el estatus del servidor dhcp con el comando systemctl status isc-dhcp-server</p>
+                            <ul class="actions">
+                                <li><a href="images/DHCP/2021-05-25_23h38_41.png" class="button">Ver imagen</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <a href="images/DHCP/2021-05-25_23h39_11.png" class="image">
+                        <img src="images/DHCP/2021-05-25_23h39_11.png" alt="" data-position="top center" />
+                    </a>
+                    <div class="content">
+                        <div class="inner">
+                            <header class="major">
+                                <h3>PASO 11</h3>
+                            </header>
+                            <p>Por último para saber si nuestro servicio DHCP reparte ips lo checamos en power Shell en nuestra maquina “Windows 10” </p>
+                            <ul class="actions">
+                                <li><a href="images/DHCP/2021-05-25_23h39_11.png" class="button">Ver imagen</a></li>
                             </ul>
                         </div>
                     </div>
                 </section>
             </section>
+
 
             <!-- Three -->
             <!-- <section id="three">

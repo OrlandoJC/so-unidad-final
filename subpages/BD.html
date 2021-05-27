@@ -3,7 +3,7 @@
 <html>
 
 <head>
-    <title>Nombre</title>
+    <title>BASE DE DATOS</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="../assets/css/main.css" />
@@ -40,13 +40,14 @@
         <section id="banner" class="style2">
             <div class="inner">
                 <span class="image">
-								<img src="images/pic07.jpg" alt="" />
+								<img src="images/bdbanner.webp" alt="" />
 							</span>
                 <header class="major">
-                    <h1>Landing</h1>
+                    <h1>BASE DE DATOS</h1>
+                    <h2>MARIA DB</h2>
                 </header>
                 <div class="content">
-                    <p>Lorem ipsum dolor sit amet nullam consequat<br /> sed veroeros. tempus adipiscing nulla.</p>
+                    <p>Instalacion y configuracion de la base de datos de MariaDB.</p>
                 </div>
             </div>
         </section>
@@ -60,60 +61,223 @@
                     <header class="major">
                         <h2>Descripcion</h2>
                     </header>
-                    <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt.
-                        Vivamus et sagittis libero. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.</p>
+                    <p>Un servidor de base de datos, también conocido como database server o RDBMS (Relational DataBase Management Systems) en caso de bases de datos relacionales, es un tipo de software de servidor que permiten la organización de la información
+                        mediante el uso de tablas, índices y registros.</p>
                 </div>
             </section>
 
             <!-- Two -->
             <section id="two" class="spotlights">
                 <section>
-                    <a href="generic.html" class="image">
-                        <img src="images/pic08.jpg" alt="" data-position="center center" />
+                    <a href="images/Base/2021-05-25_23h43_28.png" class="image">
+                        <img src="images/Base/2021-05-25_23h43_28.png" alt="" data-position="center center" />
                     </a>
                     <div class="content">
                         <div class="inner">
                             <header class="major">
-                                <h3>Orci maecenas</h3>
+                                <h3>PASO 1</h3>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu
-                                lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+                            <p>Se instala la base de datos con el comando apt-get install mariadb-server</p>
                             <ul class="actions">
-                                <li><a href="generic.html" class="button">Ver imagen</a></li>
+                                <li><a href="images/Base/2021-05-25_23h43_28.png" class="button">Ver imagen</a></li>
                             </ul>
                         </div>
                     </div>
                 </section>
                 <section>
-                    <a href="generic.html" class="image">
-                        <img src="images/pic09.jpg" alt="" data-position="top center" />
+                    <a href="images/Base/2021-05-25_23h51_31.png" class="image">
+                        <img src="images/Base/2021-05-25_23h51_31.png" alt="" data-position="top center" />
                     </a>
                     <div class="content">
                         <div class="inner">
                             <header class="major">
-                                <h3>Rhoncus magna</h3>
+                                <h3>PASO 2</h3>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu
-                                lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+                            <p>Ingresamos al servidor de la base de datos de manera local con el comando mysql –u root –h localhost -p e ingresamos con el password determinado “admin” </p>
                             <ul class="actions">
-                                <li><a href="generic.html" class="button">Ver imagen</a></li>
+                                <li><a href="images/Base/2021-05-25_23h51_31.png" class="button">Ver imagen</a></li>
                             </ul>
                         </div>
                     </div>
                 </section>
                 <section>
-                    <a href="generic.html" class="image">
-                        <img src="images/pic10.jpg" alt="" data-position="25% 25%" />
+                    <a href="images/Base/2021-05-25_23h54_08.png" class="image">
+                        <img src="images/Base/2021-05-25_23h54_08.png" alt="" data-position="25% 25%" />
                     </a>
                     <div class="content">
                         <div class="inner">
                             <header class="major">
-                                <h3>Sed nunc ligula</h3>
+                                <h3>PASO 3</h3>
                             </header>
-                            <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu
-                                lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+                            <p>Se crea la base de datos con el comando CREATE DATABASE alumnos; después ingresamos a la database con el comando USE alumnos; ahora creamos una tabla llamado alumnos con el comando CREATE TABLE alumnos (nombre VARCHAR(30),
+                                edad INT) y se muestra la tabla creada con el comando DESCRIBE alumnos;</p>
                             <ul class="actions">
-                                <li><a href="generic.html" class="button">Ver imagen</a></li>
+                                <li><a href="images/Base/2021-05-25_23h54_08.png" class="button">Ver imagen</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <a href="images/Base/2021-05-25_23h57_22.png" class="image">
+                        <img src="images/Base/2021-05-25_23h57_22.png" alt="" data-position="center center" />
+                    </a>
+                    <div class="content">
+                        <div class="inner">
+                            <header class="major">
+                                <h3>PASO 4</h3>
+                            </header>
+                            <p>Ahora agregamos 2 datos de alumnos dentro la base de datos que creamos con el comando INSERT INTO alumnos VALUES (‘Julissa Aldana’,19); y INSERT INTO alumnos VALUES (‘Gabriel Canche’,20); y mostramos esos datos que insertamos
+                                con el comando SELECT*FROM alumnos;</p>
+                            <ul class="actions">
+                                <li><a href="images/Base/2021-05-25_23h57_22.png" class="button">Ver imagen</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <a href="images/Base/2021-05-26_13h48_38.png" class="image">
+                        <img src="images/Base/2021-05-26_13h48_38.png" alt="" data-position="top center" />
+                    </a>
+                    <div class="content">
+                        <div class="inner">
+                            <header class="major">
+                                <h3>PASO 5</h3>
+                            </header>
+                            <p>Ahora configuramos el archivo conf de MYSQL con el comando nano /etc/mysql/mariadb.conf.d/50-server-cnf, agregando el nombre de user el cual es “equipo8” y agregamos en bind-adress nuestra ip del servidor en este caso “192.168.0.0”
+                                y lo guardamos.</p>
+                            <ul class="actions">
+                                <li><a href="images/Base/2021-05-26_13h48_38.png" class="button">Ver imagen</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <a href="images/Base/2021-05-26_13h49_33.png" class="image">
+                        <img src="images/Base/2021-05-26_13h49_33.png" alt="" data-position="25% 25%" />
+                    </a>
+                    <div class="content">
+                        <div class="inner">
+                            <header class="major">
+                                <h3>PASO 6</h3>
+                            </header>
+                            <p>Se instala nmap</p>
+                            <ul class="actions">
+                                <li><a href="images/Base/2021-05-26_13h49_33.png" class="button">Ver imagen</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <a href="images/Base/2021-05-26_13h51_09.png" class="image">
+                        <img src="images/Base/2021-05-26_13h51_09.png" alt="" data-position="center center" />
+                    </a>
+                    <div class="content">
+                        <div class="inner">
+                            <header class="major">
+                                <h3>PASO 7</h3>
+                            </header>
+                            <p>Ahora con el comando nmap 192.168.0.0 -p 3306 checamos si el puerto 3306 está abierto para poder utilizar el servicio MYSQL.</p>
+                            <ul class="actions">
+                                <li><a href="images/Base/2021-05-26_13h51_09.png" class="button">Ver imagen</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <a href="images/Base/2021-05-26_13h54_17.png" class="image">
+                        <img src="images/Base/2021-05-26_13h54_17.png" alt="" data-position="top center" />
+                    </a>
+                    <div class="content">
+                        <div class="inner">
+                            <header class="major">
+                                <h3>PASO 8</h3>
+                            </header>
+                            <p>Después damos de alta el usuario localhost con el comando alter user ‘root´@´localhost´ identified by “12345”; ahora creamos el usuario equipo8 con el comando create user ‘equipo8´@´%´ identified by “12345”; y de la misma forma
+                                creamos un usuario de equipo8 de manera local con el comando create user ‘equipo8´@´localhost´ identified by “12345”;</p>
+                            <ul class="actions">
+                                <li><a href="images/Base/2021-05-26_13h54_17.png" class="button">Ver imagen</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <a href="images/Base/2021-05-26_13h55_18.png" class="image">
+                        <img src="images/Base/2021-05-26_13h55_18.png" alt="" data-position="25% 25%" />
+                    </a>
+                    <div class="content">
+                        <div class="inner">
+                            <header class="major">
+                                <h3>PASO 9</h3>
+                            </header>
+                            <p>Concedemos los privilegios al usuario equipo8 para ingresar remotamente con el comando GRANT all privileges ON *.* to ´equipo8´@´%´;</p>
+                            <ul class="actions">
+                                <li><a href="images/Base/2021-05-26_13h55_18.png" class="button">Ver imagen</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <a href="images/Base/2021-05-26_13h56_53.png" class="image">
+                        <img src="images/Base/2021-05-26_13h56_53.png" alt="" data-position="center center" />
+                    </a>
+                    <div class="content">
+                        <div class="inner">
+                            <header class="major">
+                                <h3>PASO 10</h3>
+                            </header>
+                            <p>Ahora ingresamos a mariadb y entramos a MYSQL con el comando use mysql , despues para checar los hosts de los usuarios que dimos de alta utilizamos el comando select user, hot from user; y notamos que si se configuro los privilegios
+                                del usuario equipo 8 y checamos las bases de datos con el comando show databases;</p>
+                            <ul class="actions">
+                                <li><a href="images/Base/2021-05-26_13h56_53.png" class="button">Ver imagen</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <a href="images/Base/2021-05-26_13h58_04.png" class="image">
+                        <img src="images/Base/2021-05-26_13h58_04.png" alt="" data-position="top center" />
+                    </a>
+                    <div class="content">
+                        <div class="inner">
+                            <header class="major">
+                                <h3>PASO 11</h3>
+                            </header>
+                            <p>Se accede desde Windows a la base de datos de Linux Server y vemos las databases disponibles con el comando show databases; y entramos a la databases alumnos con el comando use alumnos y con el comando select*from alumnos;
+                                podemos ver los datos que insertamos previamente en nuestro servidor.</p>
+                            <ul class="actions">
+                                <li><a href="images/Base/2021-05-26_13h58_04.png" class="button">Ver imagen</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <a href="images/Base/2021-05-26_13h59_35.png" class="image">
+                        <img src="images/Base/2021-05-26_13h59_35.png" alt="" data-position="25% 25%" />
+                    </a>
+                    <div class="content">
+                        <div class="inner">
+                            <header class="major">
+                                <h3>PASO 12</h3>
+                            </header>
+                            <p>Ahora agregamos 2 datos de alumnos dentro la base de datos con el comando INSERT INTO alumnos VALUES (‘Orlando Cuxim’,22); y INSERT INTO alumnos VALUES (‘Manuel Dzib’,19);</p>
+                            <ul class="actions">
+                                <li><a href="images/Base/2021-05-26_13h59_35.png" class="button">Ver imagen</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <a href="images/Base/2021-05-26_14h01_51.png" class="image">
+                        <img src="images/Base/2021-05-26_14h01_51.png" alt="" data-position="top center" />
+                    </a>
+                    <div class="content">
+                        <div class="inner">
+                            <header class="major">
+                                <h3>PASO 13</h3>
+                            </header>
+                            <p>Ahora regresamos en nuestro servidor y checamos nuevamente la databases alumnos con el comando use alumnos y el comando select*from alumnos, y como notamos los datos insertados desde Windows se guardaron.</p>
+                            <ul class="actions">
+                                <li><a href="images/Base/2021-05-26_14h01_51.pngimages/Base/2021-05-26_14h01_51.png" class="button">Ver imagen</a></li>
                             </ul>
                         </div>
                     </div>
